@@ -68,3 +68,28 @@ button:hover {
     opacity: 1;
     cursor: pointer;
 }
+
+@media (min-width:375px) and (max-width:400px) {
+    body {
+        padding: 1rem;
+    }
+    
+    h1 {
+            font-size: 35px;
+    }
+    
+    #bio {
+        display: block;
+    }
+    
+    #bio img {
+        height: 250px;
+        width: 250px;
+        margin: 1rem 1.5rem;
+    }
+
+    .info {
+        width: auto;
+        padding: 2vw;
+    }
+}
